@@ -1,0 +1,46 @@
+{
+  "name": "quotly",
+  "version": "1.0.0",
+  "description": "Is you want to demotivate add this lib in your project, It will boost your energy and motivate you",
+  "keywords": [
+    "npm",
+    "npm",
+    "package",
+    "nodeJS",
+    "nextJS",
+    "reactJS",
+    "javascript",
+    "quotes",
+    "motivational",
+    "quotes"
+  ],
+  "homepage": "https://github.com/muzzamilhassan/quotly-npm-package#readme",
+  "bugs": {
+    "url": "https://github.com/muzzamilhassan/quotly-npm-package/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzzamilhassan/quotly-npm-package.git"
+  },
+  "license": "ISC",
+  "author": "Muzzamil Hassan",
+  "type": "module",
+  "main": "build/index.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "rimraf build && tsc"
+    
+  },
+  "dependencies": {
+    "@types/typescript": "^0.4.29",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "rimraf": "^6.0.1"
+  }
+}
